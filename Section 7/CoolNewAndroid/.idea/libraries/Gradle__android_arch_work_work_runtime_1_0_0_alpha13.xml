@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: android.arch.work:work-runtime-1.0.0-alpha13">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/gradle-3.3/caches/transforms-1/files-1.1/jetified-work-runtime-1.0.0-alpha13.aar/c572844db9b8dfbfccd2b49d872d0f40/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/gradle-3.3/caches/transforms-1/files-1.1/jetified-work-runtime-1.0.0-alpha13.aar/c572844db9b8dfbfccd2b49d872d0f40/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/gradle-3.3/caches/modules-2/files-2.1/android.arch.work/work-runtime/1.0.0-alpha13/5e65c36a0cc469fcc8c1d77c8fcb10f169207230/work-runtime-1.0.0-alpha13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

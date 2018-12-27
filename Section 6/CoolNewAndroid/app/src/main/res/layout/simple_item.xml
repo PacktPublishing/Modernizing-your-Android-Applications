@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="auto"
+            type="com.packt.coolnewandroid.Automobile" />
+    </data>
+
+    <TextView
+        android:id="@+id/text1"
+        style="?android:attr/spinnerDropDownItemStyle"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text='@{auto.make + " " + auto.model}'
+        android:ellipsize="marquee"
+        android:textColor="#000"
+        android:singleLine="true" />
+</layout>

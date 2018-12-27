@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/label_make"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text="MAKE:" />
+
+    <EditText
+        android:id="@+id/edit_make"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/label_make"/>
+
+    <TextView
+        android:id="@+id/label_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_make"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="27dp"
+        android:text="MODEL:" />
+
+    <EditText
+        android:id="@+id/edit_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_make"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@+id/label_model" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_model"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="16dp"
+        android:text="SAVE" />
+
+</RelativeLayout>
